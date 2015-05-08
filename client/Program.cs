@@ -8,6 +8,8 @@ namespace client
         {
             Console.Title = "Client";
 
+            Console.WriteLine("Press space to send a mesage any other key to quit.");
+
             while (Console.ReadKey().Key == ConsoleKey.Spacebar)
             {
                 using (var c = new ProductClient())

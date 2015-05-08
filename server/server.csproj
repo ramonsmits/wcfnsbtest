@@ -60,7 +60,9 @@
     <Compile Include="IMyService.cs" />
     <Compile Include="MyCommand.cs" />
     <Compile Include="MyCommandHandler.cs" />
+    <Compile Include="MyMutator.cs" />
     <Compile Include="MyServiceImplementation.cs" />
+    <Compile Include="MyUnitOfWork.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
